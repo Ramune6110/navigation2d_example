@@ -15,7 +15,7 @@
     <arg name="base_frame" value="base_frame"/>
     <arg name="odom_frame" value="base_frame"/>
   </include>
-  <include file="$(find hector_geotiff)/launch/geotiff_mapper.launch">
+  <include file="$(find hector_geotiff_launch)/launch/geotiff_mapper.launch">
     <arg name="trajectory_source_frame_name" value="/base_frame"/>
   </include>
 
